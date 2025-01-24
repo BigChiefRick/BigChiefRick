@@ -18,6 +18,8 @@ jobs:
           committer_message: "chore: update metrics"
           template: classic
           base: header, activity, community, repositories, metadata
+          plugin_activity: yes
+          plugin_activity_visibility: all
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_indepth: yes
@@ -43,4 +45,8 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_stars_limit: 5
+          plugin_topics: enable
+          plugin_topics_mode: icons
+
+        
